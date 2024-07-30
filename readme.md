@@ -11,14 +11,22 @@ This repository will include examples and exercises using the following technolo
 
 - **Golang**: The main programming language used in this repository.
 - **Docker**: For containerization and managing dependencies.
+- **Kubernetes**:Container orchestration system for automating.
 - **Git**: For version control and collaboration.
 - **PostgreSQL**: As a relational database.
+- **MySQL**: As a another database.
 - **MongoDB**: As a NoSQL database.
 - **Redis**: For caching and message brokering.
 - **GraphQL**: For API development.
-- **gRPC**: For high-performance RPC.
+- **GRPC**: For high-performance RPC.
 - **RESTful APIs**: For building scalable web services.
 - **Middleware**: For handling requests and responses.
 - **Authentication & Authorization**: Using JWT, OAuth, etc.
 - **Testing**: Unit tests, integration tests, and TDD/BDD practices.
 - **CI/CD**: Using GitHub Actions for continuous integration and deployment.
+- **Elasticsearch**: Search engine.
+- **Grafana**: A multi-platform open source analytics and interactive visualization web application.
+- **Prometheus**:A free software application used for event monitoring and alerting.
+- **Kafka**: A distributed event store and stream-processing platform.
+- **Swagger**: A suite of tools for API developers.
+- **Sqlite**: A database engine.
