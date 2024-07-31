@@ -1,0 +1,1 @@
+https://exercism.org/tracks/go/exercises/difference-of-squares
