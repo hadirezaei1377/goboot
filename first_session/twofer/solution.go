@@ -1,5 +1,7 @@
 package twofer
 
+/*
+
 import "fmt"
 
 func twoFer(name string) string {
@@ -17,3 +19,5 @@ func main() {
 	fmt.Println(twoFer(""))       // Output: One for you, one for me.
 	fmt.Println(twoFer("Zaphod")) // Output: One for Zaphod, one for me.
 }
+
+*/
