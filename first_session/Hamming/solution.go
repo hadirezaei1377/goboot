@@ -1,5 +1,7 @@
 package hamming
 
+/*
+
 import (
 	"errors"
 	"fmt"
@@ -29,3 +31,5 @@ func main() {
 		fmt.Printf("Hamming Distance: %d\n", distance)
 	}
 }
+
+*/
