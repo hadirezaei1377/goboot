@@ -30,3 +30,4 @@ This repository will include examples and exercises using the following technolo
 - **Kafka**: A distributed event store and stream-processing platform.
 - **Swagger**: A suite of tools for API developers.
 - **Sqlite**: A database engine.
+- **Testing**: Unit and integration test.
