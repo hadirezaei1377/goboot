@@ -1,5 +1,6 @@
 package differenceofsquares
 
+/*
 import "fmt"
 
 func main() {
@@ -21,3 +22,4 @@ func main() {
 
 	fmt.Printf("The difference between the square of the sum and the sum of the squares of the first %d natural numbers is %d\n", N, difference)
 }
+*/
