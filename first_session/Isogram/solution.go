@@ -1,5 +1,6 @@
 package isogram
 
+/*
 import (
 	"fmt"
 	"strings"
@@ -41,3 +42,4 @@ func main() {
 		}
 	}
 }
+*/
