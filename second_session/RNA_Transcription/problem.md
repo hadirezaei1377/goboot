@@ -25,5 +25,3 @@ G -> C
 C -> G
 T -> A
 A -> U
-Note
-If you want to look at how the inputs and outputs are structured, take a look at the examples in the test suite.

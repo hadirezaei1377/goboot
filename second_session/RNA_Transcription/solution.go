@@ -1,5 +1,6 @@
 package rnatranscription
 
+/*
 func ToRNA(dna string) string {
 	retVal := ""
 	for _, ch := range dna {
@@ -16,3 +17,4 @@ func ToRNA(dna string) string {
 	}
 	return retVal
 }
+*/
