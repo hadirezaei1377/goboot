@@ -1,1 +1,1 @@
-package exercisesstructure
+package triangle

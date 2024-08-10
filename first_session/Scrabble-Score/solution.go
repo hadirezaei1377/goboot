@@ -1,6 +1,7 @@
 package scrabblescore
 
 // solve using maps
+
 /*
 
 func score(word string) int {
