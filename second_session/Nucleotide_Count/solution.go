@@ -1,5 +1,6 @@
 package nucleotidecount
 
+/*
 import (
 	"errors"
 	"fmt"
@@ -27,3 +28,4 @@ func (d DNA) Counts() (Histogram, error) {
 	}
 	return h, nil
 }
+*/
