@@ -18,4 +18,4 @@ b + c ≥ a
 a + c ≥ b
 See Triangle Inequality
 
-In this exercise you are asked to declare a series of constants used to identify different types of triangles. Pick the data type you think works best for this and get the tests passing.
+In this exercise you are asked to declare a series of constants used to identify different types of triangles.
