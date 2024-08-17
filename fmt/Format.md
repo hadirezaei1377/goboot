@@ -6,7 +6,7 @@ func main() {
     age := ۳۰
     fmt.Printf("سن شما: %d\n", age)
 }
-
+ 
 output:
 سن شما: ۳۰
 
