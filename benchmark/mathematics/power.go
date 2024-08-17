@@ -15,3 +15,4 @@ func PowerH(base, power float64) float64 {
 func PowerMath(base, power float64) float64 {
 	return math.Pow(base, power)
 }
+
