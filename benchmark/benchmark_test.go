@@ -10,3 +10,31 @@ func TestSquare(t *testing.T) {
 		}
 	}
 }
+
+func TestDayOfWeek(t *testing.T) {
+	type test struct {
+		Input          int
+		ExpectedResult string
+	}
+
+	var testCases = []test{ // pass data to it
+		{Input: 1, ExpectedResult: "شنبه"},
+		{Input: 2, ExpectedResult: "یکشنبه"},
+		{Input: 3, ExpectedResult: "دوشنبه"},
+		{Input: 4, ExpectedResult: "سه شنبه"},
+		{Input: 5, ExpectedResult: "چهارشنبه"},
+		{Input: 6, ExpectedResult: "پنجشنبه"},
+		{Input: 7, ExpectedResult: "جمعه"},
+		{Input: 8, ExpectedResult: ""},   // corner case
+		{Input: 0, ExpectedResult: ""},   // corner case
+		{Input: -15, ExpectedResult: ""}, // corner case
+	}
+
+	for _, c := range testCases {
+		result := dayOfWeek(s.Input)
+		if result != c.EpectedResult {
+			t.Errorf("expested: %s, result: %s\n", c, c.ExpectedResult, result)
+		}
+	}
+
+}
