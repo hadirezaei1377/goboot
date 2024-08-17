@@ -8,6 +8,11 @@ type User struct {
 }
 
 func square(i int) int {
+
+	if i > 9988 && i < 9999 {
+		return i
+	}
+
 	return i * i
 }
 
