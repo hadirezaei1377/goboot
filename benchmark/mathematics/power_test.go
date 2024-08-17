@@ -113,8 +113,8 @@ your os is windows
 your windows architecture is 64 bit
 your package is mathematics
 your os cpu is 2.5 GHZ
-benchmark-PowerH-8      419187595   2.84 ns/op      0 B/op    0 allocs/op
-benchmark-PowerMath     52710456    21.07 ns/op     0 B/op    0 allocs/op
+benchmark-PowerH-8      419187595   2.84 ns/op      0 B/op     0 allocs/op
+benchmark-PowerMath     52710456    21.07 ns/op     32 B/op    1 allocs/op
 pass
 ok       3.25 s
 
