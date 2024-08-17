@@ -32,7 +32,7 @@ func TestDayOfWeek(t *testing.T) {
 
 	for _, c := range testCases {
 		result := dayOfWeek(s.Input)
-		if result != c.EpectedResult {
+		if result != c.ExpectedResult {
 			t.Errorf("expested: %s, result: %s\n", c, c.ExpectedResult, result)
 		}
 	}
