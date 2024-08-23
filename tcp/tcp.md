@@ -1,0 +1,1 @@
+for connecting client and server run tcp-client.go and tcp-server.go at the same time
