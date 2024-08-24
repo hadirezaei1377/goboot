@@ -17,7 +17,6 @@ This repository will include examples and exercises using the following technolo
 - **MySQL**: As a another database.
 - **MongoDB**: As a NoSQL database.
 - **Redis**: For caching and message brokering.
-- **GraphQL**: For API development.
 - **GRPC**: For high-performance RPC.
 - **RESTful APIs**: For building scalable web services.
 - **Middleware**: For handling requests and responses.
@@ -30,4 +29,4 @@ This repository will include examples and exercises using the following technolo
 - **Kafka**: A distributed event store and stream-processing platform.
 - **Swagger**: A suite of tools for API developers.
 - **Sqlite**: A database engine.
-- **Testing**: Unit and integration test.
+
