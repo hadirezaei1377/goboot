@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="fa-if" dir = "rtl">
+
+<head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+
+        GoCasts &middot; آموزش Go به زبان ساده
+
+    </title>
+
+
+    <link rel="canonical" href="https://gocasts.ir/">
+
+
+    <link rel="stylesheet" href="https://gocasts.ir/public/css/vazir.css">
+    <link rel="stylesheet" href="https://gocasts.ir/public/css/poole.css">
+    <link rel="stylesheet" href="https://gocasts.ir/public/css/syntax.css">
+    <link rel="stylesheet" href="https://gocasts.ir/public/css/lanyon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400&display=swap">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://gocasts.ir/public/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="https://gocasts.ir/public/favicon.ico">
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://gocasts.ir/atom.xml">
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-175825275-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>Home | GoCasts</title>
+    <meta name="generator" content="Jekyll v4.2.2" />
+    <meta property="og:title" content="Home" />
+    <meta name="author" content="Hossein Nazari" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="آموزش زبان برنامه نویسی Go با GoCasts. هدف ما آموزش برنامه نویسی به ساده ترین شکل ممکن است." />
+    <meta property="og:description" content="آموزش زبان برنامه نویسی Go با GoCasts. هدف ما آموزش برنامه نویسی به ساده ترین شکل ممکن است." />
+    <link rel="canonical" href="https://gocasts.ir/" />
+    <meta property="og:url" content="https://gocasts.ir/" />
+    <meta property="og:site_name" content="GoCasts" />
+    <meta property="og:type" content="website" />
+    <link rel="next" href="https://gocasts.ir/page2" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Home" />
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Hossein Nazari","url":"https://twitter.com/kolahjoub"},"description":"آموزش زبان برنامه نویسی Go با GoCasts. هدف ما آموزش برنامه نویسی به ساده ترین شکل ممکن است.","headline":"Home","name":"GoCasts","url":"https://gocasts.ir/"}</script>
+    <!-- End Jekyll SEO tag -->
+
+</head>
+
+
+<body class="layout-reverse" style="text-align: justify; text-justify: inter-word;">
+
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+ styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-item">
+        <p>آموزش زبان برنامه نویسی Go با <a href="https://gocasts.ir" target="_blank">GoCasts</a>. هدف ما آموزش برنامه نویسی به ساده ترین شکل ممکن است.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+        <a class="sidebar-nav-item active" href="https://gocasts.ir/">صفحه اصلی</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a target="_blank" class="sidebar-nav-item" href="https://gocasts.ir/about/">درباره ما</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a target="_blank" class="sidebar-nav-item" href="https://talk.gocasts.ir">تالار گفتگو Go Casts</a>
+    </nav>
+
+    <div class="sidebar-item">
+        <p>
+            برای دریافت آخرین مطالب کانال تلگرام
+            <a href="https://t.me/gocasts">
+                GoCasts
+            </a>
+            را دنبال کنید.
+        </p>
+    </div>
+
+    <div class="sidebar-item">
+        <p>
+            &copy; ۱۳۹۹  تمامی حقوق این سایت برای gocasts.ir محفوظ است.
+        </p>
+    </div>
+</div>
+
+
+<!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+     content to avoid any CSS collisions with our real content. -->
+<div class="wrap">
+    <div class="masthead">
+        <div class="container">
+            <h3 class="masthead-title">
+                <a  target="_blank" href="/" title="Home">GoCasts</a>
+                <small>آموزش Go به زبان ساده</small>
+            </h3>
+        </div>
+    </div>
+
+    <div class="container content">
+        <h2 style="color:#DC143C;">ویژه</h2>
+        <div class="posts">
+
+
+            <div class="post">
+                <h3 class="post-title">
+                    <a target="_blank" href="https://gocasts.ir/gocasts-bootcamp-140110">
+                        بوتکمپ آموزش بکند و گولنگ - سلام به دنیای ابری
+                    </a>
+                </h3>
+
+                <span class="post-date">01 Jan 2023</span>
+
+
+                این بوتکمپ فرصتی را فراهم می‌کند که با یادگیری مفاهیم و ابزارهای مورد نیاز این حوزه، بتوانید وارد بازار کار شوید. این بوتکمپ با شیوه پروژه محور به شما کمک می‌کند در زمان محدودی، بتوانید مهارت‌های لازم را کسب کنید.
+                <br/>
+                <a target="_blank" href="https://gocasts.ir/gocasts-bootcamp-140110">
+                    ادامه مطلب
+                </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="post">
+                <h3 class="post-title">
+                    <a target="_blank" href="https://gocasts.ir/golang-roadmap-for-beginners">
+                        ساده و سریع، نقشه راه یادگیری زبان گو - قابل توجه برنامه نویسان کم تجربه یا بی تجربه
+                    </a>
+                </h3>
+
+                <span class="post-date">21 Dec 2021</span>
+
+
+                نقشه راه حاضر با هدف تسریع روند یادگیری آماده شده است و جامعه هدف آن برنامه نویسانی هستند که تجربه کمی با این زبان دارند و یا اصلا قبلا با زبان گولنگ آشنا نبوده اند.
+                <br/>
+                <a target="_blank" href="https://gocasts.ir/golang-roadmap-for-beginners">
+                    ادامه مطلب
+                </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <h2>لیست مقالات</h2>
+            <ul>
+
+
+
+
+
+                <li><a target="_blank" href="/three-projects-to-learn-go-for-web-development">سه پروژه‌ای که به شما کمک میکنه گولنگ رو برای توسعه وب بهتر یاد بگیرید</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/talk-with-mostafa-solati">گفتگوی شنیدنی با مهندس مصطفی صولتی</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/talk-with-kain">گفتگوی شنیدنی با مهندس کیانوش مختاریان</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/software-architecture-challenge-1">چالش معماری شماره یک</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/social-responsibility-home-of-butterflies-piece-of-heaven-on-earth">مسئولیت اجتماعی - شما به پروانه ها چی عیدی میدی؟</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/golang-and-programming-concepts-visualized">یادگیری راحت تر مفاهیم مهم گولنگ و برنامه نویسی به کمک تصویر</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/software-architecture">معماری نرم افزار</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/learning-golang-with-caleb-doxsey">یادگیری عمیق گولنگ از صفر صفر به کمک caleb doxsey</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/become-a-software-engineer-without-a-cs-degree">ورود به صنعت نرم افزار حتی بدون دانش مرتبط</a></li>
+
+
+
+
+
+
+
+                <li><a target="_blank" href="/four-engineering-metrics">چهار معیار ارزیابی کیفیت software delivery</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/go-context-basic">آشنایی با پکیج Context در زبان Go</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/go-retry-pattern">استفاده از الگوی retry برای ارتقا سطح پایداری سیستم</a></li>
+
+
+
+
+
+                <li><a target="_blank" href="/go-at-google">زبان Go در گوگل</a></li>
+
+
+
+            </ul>
+        </div>
+
+        <!--        <ul>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/gocasts-bootcamp-140110">بوتکمپ آموزش بکند و گولنگ - سلام به دنیای ابری</a>-->
+        <!--            <p>بسم الله الرحمن الرحیم</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/three-projects-to-learn-go-for-web-development">سه پروژه‌ای که به شما کمک میکنه گولنگ رو برای توسعه وب بهتر یاد بگیرید</a>-->
+        <!--            <p>یادگیری هر زبان یا مهارتی بدون تمرین امکانپذیر نیست یا خیلی سخت امکانپذیر میشه، تمرین کردن به شما کمک میکنه نقاط ضعف خودتون رو شناسایی کنید و بتونید با مطالعه بیشتر و تمرین کدنویسی اون‌هارو پوشش بدید.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/talk-with-mostafa-solati">گفتگوی شنیدنی با مهندس مصطفی صولتی</a>-->
+        <!--            <p><img src="/public/posts/mostafa-solati.jpg" alt="مهندس مصطفی صولتی، CTO در SnappKitchen" /></p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/talk-with-kain">گفتگوی شنیدنی با مهندس کیانوش مختاریان</a>-->
+        <!--            <p><img src="/public/posts/kianoosh-mokhtarian.jpg" alt="مهندس کیانوش مختاریان، رهبر فنی و مدیر در گوگل" /></p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/software-architecture-challenge-1">چالش معماری شماره یک</a>-->
+        <!--            <p>سعی می کنم به فراخور ان شاءالله چالش های معماری مختلفی رو در GoCasts راه اندازی کنم تا هم کمی بیشتر دانش خودمون رو به چالش بکشیم و هم اینکه از تجربیات و ایده های دیگران استفاده کنیم.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/social-responsibility-home-of-butterflies-piece-of-heaven-on-earth">مسئولیت اجتماعی - شما به پروانه ها چی عیدی میدی؟</a>-->
+        <!--            <p>عکاس: محمد برزگر</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/golang-and-programming-concepts-visualized">یادگیری راحت تر مفاهیم مهم گولنگ و برنامه نویسی به کمک تصویر</a>-->
+        <!--            <p>یادگیری مفاهیم برنامه نویسی سختی ها و چالش های خاص خودش رو داره. یکی از دلایلش میتونه این باشه که عموما مفاهیم برنامه نویسی «چیزهای انتزاعی» هستند و سخت میشه تو دنیای اطرافمون مفاهیم مشابه رو براش متصور بشیم. همین امر یادگیری مفاهیم برنامه نویسی رو سخت تر هم میکنه. بنده به شخصه به شدت طرفدار آموزش های مصور یا اصطلاحا visualized هستم و سعی می کنم مفاهیمی که به ذهن سپردنشون برام سخته رو بصورت مصور یاد بگیرم. اینطوری میتونم یه تصویرسازی ذهنی داشته باشم ازشون و بهتر اونارو یاد بگیرم.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/software-architecture">معماری نرم افزار</a>-->
+        <!--            <p>در جلسه اول هفتگی GoCasts در مورد معماری نرم افزار صحبت کردیم. فیلم این جلسه رو میتونید از <a href="https://youtu.be/F0Wufb50wYY">این لینک</a> تماشا کنید.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/learning-golang-with-caleb-doxsey">یادگیری عمیق گولنگ از صفر صفر به کمک caleb doxsey</a>-->
+        <!--            <p>امروز میخوام یه دوره ویدیویی رو به شما معرفی کنم که در عین حال که قدیمیه ولی فوق العاده ست. اگه به دنبال یادگیری عمیق گولنگ هستید و میخواید از صفر صفر شروع کنید، شاید تنها چیزی که لازم دارید که یک توسعه دهنده وب و گولنگ بشید دیدن همین دوره باشه.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/become-a-software-engineer-without-a-cs-degree">ورود به صنعت نرم افزار حتی بدون دانش مرتبط</a>-->
+        <!--            <p>افراد خیلی زیادی هستند که تخصص های مختلفی دارند که لزوما ارتباطی با مهندسی نرم افزار هم نداره اما قصد دارند وارد این حوزه بشن. احتمالا اولین سوالی که به ذهنشون میرسه اینه که بدون داشتن مدرک دانشگاهی مرتبط میتونم وارد این حوزه بشم یا خیر. جواب کوتاه ‌«بله» هست و برای اثبات این ادعا کافیه به تصویر زیر دقت کنید. طبق <a href="https://learntocodewith.me/posts/become-a-software-engineer/">این گزارش</a> تقریبا ۱ میلیون شغل در صنعت تک وجود داره که باید توسط افرادی با مهارت های غیر مرتبط پر بشه.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/golang-roadmap-for-beginners">ساده و سریع، نقشه راه یادگیری زبان گو - قابل توجه برنامه نویسان کم تجربه یا بی تجربه</a>-->
+        <!--            <p>توجه: این نقشه یادگیری با هدف توسعه نرم افزارهای تحت وب (back-end) تبیین گردیده است.</p>
+        <h2 id="نرم-افزار-تحت-وب">نرم افزار تحت وب</h2>
+        <p>امروزه نرم افزارهای تحت وب مهم ترین ابزار درآمدزایی برای کسب و کارها هستند. از این رو داشتن مهارت برنامه نویسی برای این دسته از برنامه ها بسیار محبوب شده است. اتفاقی که در یک دهه اخیر رخ داده است این است که با پیچیده تر شدن منطق برنامه های تحت وب، یک جداسازی در آن صورت گرفته است و توسعه بخش ظاهری سایت یا همان front-end از بخش هسته سیستم یا همان back-end جدا شده است.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/four-engineering-metrics">چهار معیار ارزیابی کیفیت software delivery</a>-->
+        <!--            <p>امروز میخوام کمی در مورد این صحبت کنم که چطور کیفیت کار خودتون و محصولی که دارید توسعه میدید رو ارزیابی کنید.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/go-context-basic">آشنایی با پکیج Context در زبان Go</a>-->
+        <!--            <p>احتمالا تا به حال پیش آمده است که سرویسی که نوشته اید درخواستی را به یک سرویس خارجی ارسال کند و با خطای timeout مواجه شوید. در مقاله پیشین گفتیم که یکی از راه حل های بهتر کردن این شرایط استفاده از <a href="https://gocasts.ir/go-retry-pattern">retry-pattern</a> است. با الگوی تلاش مجدد شما می توانید یک درخواست را چندین بار تکرار کنید تا بتوانید پاسخ مورد نظر خود را از سرور دریافت کنید.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/go-retry-pattern">استفاده از الگوی retry برای ارتقا سطح پایداری سیستم</a>-->
+        <!--            <p>در این پست قرار است درباره یکی از راه حل های پایدارتر کردن سیستم صحبت کنیم. امروزه استفاده از سرویس های خارجی یا همان external services در برنامه های وب بسیار رایج است. برنامه های سمت سرور معمولا از این سرویس ها برای دریافت و ارسال اطلاعات استفاده می کنند. سرویس هایی مانند درگاه های پرداخت، درگاه های ارسال پیامک و ایمیل از جمله رایج ترین سرویس های خارجی مورد استفاده است.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--          <li>-->
+        <!--            <a href="/go-at-google">زبان Go در گوگل</a>-->
+        <!--            <p>یک مقاله خیلی خوب به شما معرفی می کنم که در این مقاله بصورت کامل همه اهدافی را که گوگل از بوجود آوردن زبان Go داشته است، در آن ذکر کرده است.</p>
+        -->
+        <!--          </li>-->
+        <!--          -->
+        <!--        </ul>-->
+    </div>
+</div>
+
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script src='/public/js/script.js'></script>
+</body>
+</html>
