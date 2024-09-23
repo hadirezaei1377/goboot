@@ -73,3 +73,14 @@ COMMIT;
 
 ROLLBACK; 
 
+aggregate functions:
+SELECT COUNT(*) AS total_users FROM users;
+SELECT AVG(order_amount) AS average_order FROM orders;
+SELECT MAX(order_amount) AS max_order, MIN(order_amount) AS min_order FROM orders;
+SELECT SUM(order_amount) AS total_revenue FROM orders;
+
+group by and having:
+SELECT user_id, COUNT(*) AS total_orders
+FROM orders
+GROUP BY user_id
+HAVING total_orders > 5;

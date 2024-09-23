@@ -17,5 +17,6 @@ delete the index : DROP INDEX
 join
 transactions
 aggregate functions : COUNT, AVG, MAX, MIN, SUM
+group by and having
 
 
