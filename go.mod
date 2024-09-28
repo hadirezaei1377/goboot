@@ -24,8 +24,8 @@ require (
 	github.com/kennygrant/sanitize v1.2.4 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
-	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/temoto/robotstxt v1.1.1 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/net v0.0.0-20200602114024-627f9648deb9 // indirect
 	golang.org/x/text v0.3.2 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
@@ -36,4 +36,6 @@ require (
 require (
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/robfig/cron/v3 v3.0.1
+	github.com/stretchr/testify v1.9.0
+	go.uber.org/zap v1.27.0
 )
