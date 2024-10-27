@@ -28,3 +28,13 @@ func main() {
 	// stop application for profiling
 	time.Sleep(10 * time.Minute)
 }
+
+
+/*
+
+for example : profiling cpu
+go tool pprof http://localhost:6060/debug/pprof/profile?seconds=30
+
+this command stores cpu profile for 30 seconds, 
+
+*/
