@@ -39,5 +39,37 @@ empty folder (newfolder is empty)
 rm ----> delete
 rm newfile.txt ----> newfile.txt be deleted
 
+cd .. ----> return from a folder
+
+mv ----> move file
+mv newfile.txt + destination ----> mv newfile.txt newfolder2
+mv newfile.txt + destination name ----> rename   mv newfile.txt file.txt ----> name of this file is file.txt from now on
+
+cp filename filename2 ----> make a copy of file and store in filename2
+cp new.txt new2.txt 
+
+clear ----> clear page shortcut for that is ctrl + L
+
+less ----> open a file for reading
+less readme.md ----> we can read readme
+q ----> exit from this opened file
+
+cat ----> print all content of a file on the screen
+cat readme.md 
+
+wc + filename ----> number1 number2 number3
+wc readme.md  ----> 63 437 2687   (for ex)
+number1 = number of lines for that file ----> shortcut is wc -l
+number2 = number of words for that file ----> shortcut is wc -w
+number3 = number of bytes for that file 
+
+
+
+
+
+
+
+
+
 
 
